@@ -1,2 +1,2 @@
-# Promises
+# runningAverage
 Created with CodeSandbox

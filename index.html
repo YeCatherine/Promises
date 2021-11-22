@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <div id="app"></div>
+    <h1>Promises comparison:</h1>
+    <h2>Please wait up to 10 seconds</h2>
+    <h3>
+      You will see execution time of the backend fetching logic with the
+      different approaches
+    </h3>
+    <p>
+      Expected example:
+      <img width="500px" src="./example.png" />
+    </p>
+    <hr />
+
+    <div id="promise-all-wrapper" class="border pad row">
+      <div id="promise-all">Promise.All:</div>
+    </div>
+
+    <div id="settled-wrapper" class="border pad row">
+      <div id="settled">Promise.AllSettled:</div>
+    </div>
+
+    <div id="settled-wrapper" class="border pad row">
+      <div id="settled2">Promise.AllSettled (with then):</div>
+    </div>
+
+    <div id="for-await-wrapper" class="border pad row">
+      <div id="for-await">For Await:</div>
+    </div>
+
+    <div id="legacy-wrapper" class="border pad row">
+      <div id="legacy">Legacy:</div>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>
